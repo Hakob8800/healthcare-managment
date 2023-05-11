@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>new doctor</title>
+</head>
+<body>
+<form action="/doctors/add" method="post" enctype="multipart/form-data">
+    name:<input type="text" name="name"><br>
+    surname:<input type="text" name="surname"><br>
+    email:<input type="text" name="email"><br>
+    phone number:<input type="text" name="phoneNumber"><br>
+    specialty:<input type="text" name="specialty"><br>
+    image::<input type="file" name="picture"><br>
+    <input type="submit" value="add">
+</form><br>
+<a href="/doctors">Back</a>
+</body>
+</html>

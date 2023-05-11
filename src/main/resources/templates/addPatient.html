@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>new doctor</title>
+</head>
+<body>
+<form action="/patients/add" method="post">
+    name:<input type="text" name="name"><br>
+    surname:<input type="text" name="surname"><br>
+    date of birthday:<input type="date" name="dateOfBirthday"><br>
+    <input type="submit" value="add">
+</form><br>
+<a href="/patients">Back</a>
+</body>
+</html>
